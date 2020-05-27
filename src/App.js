@@ -1,18 +1,17 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Navbar, Nav } from "react-bootstrap";
+import Navbar from "../src/components/navbar/navbar";
+import Routes from "./Routes";
 
-function App() {
-  return (
-    <Navbar bg="dark" variant="dark">
-      <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-      <Nav className="mr-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#features">Features</Nav.Link>
-        <Nav.Link href="#pricing">Pricing</Nav.Link>
-      </Nav>
-    </Navbar>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <>
+        <Navbar></Navbar>
+        <h1>Fetal and Neonatal Workshop</h1>
+        <Routes />
+      </>
+    );
+  }
 }
 
 export default App;
