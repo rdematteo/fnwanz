@@ -1,14 +1,11 @@
 import React from "react";
+import { Intro } from "../../text/text";
 
 class HomePage extends React.Component {
   state = {};
 
   render() {
-    return (
-      <div>
-        <h3>Home</h3>
-      </div>
-    );
+    return <>{Intro}</>;
   }
 }
 
