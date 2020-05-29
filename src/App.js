@@ -12,11 +12,9 @@ const Content = styled.div`
 `;
 
 const Heading = styled.h1`
-  background-color: white;
   text-align: center;
-  padding: 2rem;
+  font-size: 64px;
   @media (max-width: 768px) {
-    background-color: yellow;
     font-size: 18px;
   }
 `;
@@ -27,7 +25,11 @@ class App extends React.Component {
       <>
         <NavbarMenu />
         <Content>
-          <Heading>{Title}</Heading>
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <Heading>{Title}</Heading>
+            </div>
+          </div>
         </Content>
         <Routes />
       </>
