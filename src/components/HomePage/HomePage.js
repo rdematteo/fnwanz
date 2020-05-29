@@ -7,7 +7,6 @@ const Para = styled.div`
   font-size: 20px;
 
   @media (max-width: 768px) {
-    // background-color: yellow;
     font-size: 12px;
     padding: 10px;
   }
@@ -15,6 +14,21 @@ const Para = styled.div`
 
 const AimTitleStyled = styled(Para)`
   font-weight: 900;
+`;
+
+const AimStyled = styled(Para)`
+  font-style: oblique;
+  padding: 30px;
+  text-align: center;
+  border: 5px solid #007bff;
+  margin: 1rem 15rem;
+  border-radius: 25px;
+
+  @media (max-width: 768px) {
+    margin: 1rem 1rem;
+    font-size: 12px;
+    padding: 10px;
+  }
 `;
 
 const Links = styled.div`
@@ -44,7 +58,7 @@ class HomePage extends React.Component {
         <Para>{Intro}</Para>
         <AimTitleStyled>{AimTitle}</AimTitleStyled>
         <Para>{AimText}</Para>
-        <Para>{Aim}</Para>
+        <AimStyled>{Aim}</AimStyled>
         <Links className="links">
           <LinksStyled>
             <a class="btn btn-primary" href="/meeting" role="button">
