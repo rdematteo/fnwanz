@@ -3,7 +3,8 @@ import { Intro, AimTitle, AimText, Aim } from "../../text/text";
 import styled from "styled-components";
 
 const Para = styled.div`
-  padding: 1rem 2rem;
+  padding: 1rem 15rem;
+  font-size: 20px;
 
   @media (max-width: 768px) {
     background-color: yellow;

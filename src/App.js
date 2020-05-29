@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../src/components/navbar/navbar";
+import NavbarMenu from "./components/NavbarMenu/NavbarMenu";
 import Routes from "./Routes";
 import { Title } from "../src/text/text";
 import styled from "styled-components";
@@ -25,7 +25,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Navbar />
+        <NavbarMenu />
         <Content>
           <Heading>{Title}</Heading>
         </Content>
