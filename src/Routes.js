@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
-import Meeting from "./components/Meeting/Meeting";
+import Meeting from "./components/Meeting/34thMeeting";
 import Archive from "./components/Archive/Archive";
 
 class Routes extends React.Component {
