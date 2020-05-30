@@ -161,7 +161,7 @@ const Archive = () => {
               <td>Hobart</td>
               <td>
                 <Link
-                  to="/files/fnw-abstract-book-2003.pdf"
+                  to="/files/AbstractBooklets/fnw-abstract-book-2003.pdf"
                   target="_blank"
                   download
                 >
@@ -176,7 +176,7 @@ const Archive = () => {
               <td>Sydney</td>
               <td>
                 <Link
-                  to="/files/fnw-abstract-book-2004.pdf"
+                  to="/files/AbstractBooklets/fnw-abstract-book-2004.pdf"
                   target="_blank"
                   download
                 >
@@ -193,7 +193,7 @@ const Archive = () => {
               <td>Adelaide</td>
               <td>
                 <Link
-                  to="/files/fnw-abstract-book-2005.pdf"
+                  to="/files/AbstractBooklets/fnw-abstract-book-2005.pdf"
                   target="_blank"
                   download
                 >
@@ -212,7 +212,7 @@ const Archive = () => {
               <td>
                 {" "}
                 <Link
-                  to="/files/fnw-abstract-book-2006.pdf"
+                  to="/files/AbstractBooklets/fnw-abstract-book-2006.pdf"
                   target="_blank"
                   download
                 >
@@ -227,7 +227,7 @@ const Archive = () => {
               <td>Melbourne</td>
               <td>
                 <Link
-                  to="/files/fnw-abstract-book-2007.pdf"
+                  to="/files/AbstractBooklets/fnw-abstract-book-2007.pdf"
                   target="_blank"
                   download
                 >
@@ -245,7 +245,7 @@ const Archive = () => {
               <td>Sth Stradbroke Island resort</td>
               <td>
                 <Link
-                  to="/files/fnw-abstract-book-2008.pdf"
+                  to="/files/AbstractBooklets/fnw-abstract-book-2008.pdf"
                   target="_blank"
                   download
                 >
@@ -260,7 +260,7 @@ const Archive = () => {
               <td>Darwin</td>
               <td>
                 <Link
-                  to="/files/fnw-abstract-book-2009.pdf"
+                  to="/files/AbstractBooklets/fnw-abstract-book-2009.pdf"
                   target="_blank"
                   download
                 >
@@ -275,7 +275,7 @@ const Archive = () => {
               <td>Wellington, New Zealand</td>
               <td>
                 <Link
-                  to="/files/fnw-abstract-book-2010.pdf"
+                  to="/files/AbstractBooklets/fnw-abstract-book-2010.pdf"
                   target="_blank"
                   download
                 >
@@ -290,7 +290,7 @@ const Archive = () => {
               <td>Hobart</td>
               <td>
                 <Link
-                  to="/files/fnw-abstract-book-2011.pdf"
+                  to="/files/AbstractBooklets/fnw-abstract-book-2011.pdf"
                   target="_blank"
                   download
                 >
@@ -307,7 +307,7 @@ const Archive = () => {
               <td>Shoal Bay Resort, Port Stephens, NSW</td>
               <td>
                 <Link
-                  to="/files/fnw-abstract-book-2012.pdf"
+                  to="/files/AbstractBooklets/fnw-abstract-book-2012.pdf"
                   target="_blank"
                   download
                 >
@@ -325,7 +325,7 @@ const Archive = () => {
               <td>Barossa Valley</td>
               <td>
                 <Link
-                  to="/files/fnw-abstract-book-2013.pdf"
+                  to="/files/AbstractBooklets/fnw-abstract-book-2013.pdf"
                   target="_blank"
                   download
                 >
@@ -340,7 +340,7 @@ const Archive = () => {
               <td>Yanchep National Park</td>
               <td>
                 <Link
-                  to="/files/fnw-abstract-book-2014.pdf"
+                  to="/files/AbstractBooklets/fnw-abstract-book-2014.pdf"
                   target="_blank"
                   download
                 >
@@ -355,7 +355,7 @@ const Archive = () => {
               <td>Melbourne</td>
               <td>
                 <Link
-                  to="/files/fnw-abstract-book-2015.pdf"
+                  to="/files/AbstractBooklets/fnw-abstract-book-2015.pdf"
                   target="_blank"
                   download
                 >
@@ -373,7 +373,7 @@ const Archive = () => {
               <td>Magnetic Island, Townsville</td>
               <td>
                 <Link
-                  to="/files/fnw-abstract-book-2016.pdf"
+                  to="/files/AbstractBooklets/fnw-abstract-book-2016.pdf"
                   target="_blank"
                   download
                 >
@@ -388,7 +388,7 @@ const Archive = () => {
               <td>University House, Canberra</td>
               <td>
                 <Link
-                  to="/files/fnw-abstract-book-2017.pdf"
+                  to="/files/AbstractBooklets/fnw-abstract-book-2017.pdf"
                   target="_blank"
                   download
                 >
@@ -403,7 +403,7 @@ const Archive = () => {
               <td>Rydges Lakeland Resort, Queenstown, New Zealand</td>
               <td>
                 <Link
-                  to="/files/fnw-abstract-book-2018.pdf"
+                  to="/files/AbstractBooklets/fnw-abstract-book-2018.pdf"
                   target="_blank"
                   download
                 >
@@ -420,7 +420,7 @@ const Archive = () => {
               <td>Surfers Paradise, Queensland</td>
               <td>
                 <Link
-                  to="/files/fnw-abstract-book-2019.pdf"
+                  to="/files/AbstractBooklets/fnw-abstract-book-2019.pdf"
                   target="_blank"
                   download
                 >
@@ -435,7 +435,7 @@ const Archive = () => {
               <td>COVID-19 Edition</td>
               <td>
                 <Link
-                  to="/files/fnw-abstract-book-2020-COVID-19.pdf"
+                  to="/files/AbstractBoolets/fnw-abstract-book-2020-COVID-19.pdf"
                   target="_blank"
                   download
                 >
