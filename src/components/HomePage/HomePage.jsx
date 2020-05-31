@@ -1,6 +1,7 @@
 import React from "react";
 import { Intro, AimTitle, AimText, Aim } from "../../text/text";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Para = styled.div`
   padding: 1rem 15rem;
@@ -43,12 +44,23 @@ const Links = styled.div`
   }
 `;
 
-const LinksStyled = styled.div`
-  padding: 0 20px 0 0;
+// const LinksStyled = styled.div`
+//   background: red;
+//   padding: 0 20px 0 0;
 
-  @media (max-width: 768px) {
-    padding: 10px;
-  }
+//   @media (max-width: 768px) {
+//     padding: 10px;
+//   }
+// `;
+
+const LinkStyled = styled(Link)`
+  color: white;
+  background: #007bff;
+  margin: 10px;
+  padding: 1rem;
+  font-size: 18px;
+  border-radius: 25px;
+  text-align: center;
 `;
 
 class HomePage extends React.Component {
@@ -60,16 +72,9 @@ class HomePage extends React.Component {
         <Para>{AimText}</Para>
         <AimStyled>{Aim}</AimStyled>
         <Links className="links">
-          <LinksStyled>
-            <a class="btn btn-primary" href="/meeting" role="button">
-              34th Annual Meeting, Newcastle
-            </a>
-          </LinksStyled>
-          <LinksStyled>
-            <a class="btn btn-info" href="/archive" role="button">
-              Archives
-            </a>
-          </LinksStyled>
+          <LinkStyled to="/meeting">34th Annual Meeting, Newcastle</LinkStyled>
+
+          <LinkStyled to="/archives">Archives</LinkStyled>
         </Links>
       </>
     );

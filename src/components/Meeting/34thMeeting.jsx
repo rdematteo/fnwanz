@@ -14,12 +14,6 @@ const Title = styled.h1`
     font-size: 18px;
   }
 `;
-const MeetingTitle = styled.h2`
-  text-align: center;
-  @media (max-width: 768px) {
-    font-size: 18px;
-  }
-`;
 
 const GeneralTitle = styled.h3``;
 
