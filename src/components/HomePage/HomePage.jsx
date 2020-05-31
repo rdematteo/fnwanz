@@ -44,15 +44,6 @@ const Links = styled.div`
   }
 `;
 
-// const LinksStyled = styled.div`
-//   background: red;
-//   padding: 0 20px 0 0;
-
-//   @media (max-width: 768px) {
-//     padding: 10px;
-//   }
-// `;
-
 const LinkStyled = styled(Link)`
   color: white;
   background: #007bff;
@@ -73,7 +64,6 @@ class HomePage extends React.Component {
         <AimStyled>{Aim}</AimStyled>
         <Links className="links">
           <LinkStyled to="/meeting">34th Annual Meeting, Newcastle</LinkStyled>
-
           <LinkStyled to="/archives">Archives</LinkStyled>
         </Links>
       </>
