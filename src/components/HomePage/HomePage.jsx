@@ -6,22 +6,43 @@ import logo from "../../../src/Images/fetal-34-2020.jpg";
 
 const Container = styled.div`
   display: flex;
-  background: purple;
-  height: 100vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #074f57;
+  // height: 100vh;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 `;
 const LhsColumn = styled.div`
   width: 50%;
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
 `;
 const RhsColumn = styled.div`
   width: 50%;
   display: flex;
   justify-content: center;
   padding: 2rem 0 0 0;
-  // align-items: center;
+
+  @media (max-width: 768px) {
+    width: 90%;
+    padding: 0;
+  }
 `;
 
 const ImageStyled = styled.img`
-  height: 70%;
+  height: 20%;
+
+  @media (max-width: 768px) {
+    height: 400px;
+  }
 `;
 
 const Para = styled.div`
@@ -41,10 +62,10 @@ const AimTitleStyled = styled(Para)`
 
 const AimStyled = styled(Para)`
   font-style: oblique;
-  padding: 30px;
+  padding: 2rem 1rem;
   text-align: center;
   border: 5px solid #007bff;
-  margin: 1rem 15rem;
+  margin: 1rem 4rem;
   border-radius: 25px;
 
   @media (max-width: 768px) {
@@ -56,7 +77,7 @@ const AimStyled = styled(Para)`
 
 const Links = styled.div`
   display: flex;
-  padding: 1rem 15rem;
+  padding: 1rem 4rem;
 
   @media (max-width: 768px) {
     flex-direction: column;

@@ -9,7 +9,13 @@ const Content = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
-  // background-color: red;
+  background-color: #074f57;
+  color: #fff;
+  padding: 5rem 1rem;
+
+  @media (max-width: 768px) {
+    padding: 1rem 1rem;
+  }
 `;
 
 const Heading = styled.h1`
@@ -32,11 +38,12 @@ class App extends React.Component {
         </MetaTags>
         <NavbarMenu />
         <Content>
-          <div className="jumbotron jumbotron-fluid">
+          <Heading>{Title}</Heading>
+          {/* <div className="jumbotron jumbotron-fluid">
             <div className="container">
               <Heading>{Title}</Heading>
             </div>
-          </div>
+          </div> */}
         </Content>
         <Routes />
       </>
