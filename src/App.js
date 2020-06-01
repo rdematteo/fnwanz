@@ -3,6 +3,7 @@ import NavbarMenu from "./components/NavbarMenu/NavbarMenu";
 import Routes from "./Routes";
 import { Title } from "../src/text/text";
 import styled from "styled-components";
+import MetaTags from "react-meta-tags";
 
 const Content = styled.div`
   display: flex;
@@ -23,10 +24,16 @@ class App extends React.Component {
   render() {
     return (
       <>
+        <MetaTags>
+          <title>FNWANZ</title>
+          <meta name="description" content="Home page of FNWANZ." />
+          <meta property="og:title" content="FNWANZ" />
+          <meta property="og:image" content="./public/og-image.png" />
+        </MetaTags>
         <NavbarMenu />
         <Content>
-          <div class="jumbotron jumbotron-fluid">
-            <div class="container">
+          <div className="jumbotron jumbotron-fluid">
+            <div className="container">
               <Heading>{Title}</Heading>
             </div>
           </div>
