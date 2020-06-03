@@ -1,0 +1,4 @@
+[build]
+base = "fnwanz/"
+publish = "fnwanz/build/"
+command = "yarn build"
