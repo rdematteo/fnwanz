@@ -39,11 +39,6 @@ class App extends React.Component {
         <NavbarMenu />
         <Content>
           <Heading>{Title}</Heading>
-          {/* <div className="jumbotron jumbotron-fluid">
-            <div className="container">
-              <Heading>{Title}</Heading>
-            </div>
-          </div> */}
         </Content>
         <Routes />
       </>
