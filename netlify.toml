@@ -1,8 +1,5 @@
 [build]
 base = "fnwanz/"
 publish = "fnwanz/build/"
-<<<<<<< HEAD
 command = "npm run build"
-=======
-command = "yarn build"
->>>>>>> 440aa769099385ba386cc315934fbf9f623bf61a
+
