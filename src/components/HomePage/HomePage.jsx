@@ -58,6 +58,11 @@ const Para = styled.div`
 
 const AimTitleStyled = styled(Para)`
   font-weight: 900;
+  font-size: 24px;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
 
 const AimStyled = styled(Para)`
@@ -78,6 +83,7 @@ const AimStyled = styled(Para)`
 const Links = styled.div`
   display: flex;
   padding: 1rem 4rem;
+  justify-content: center;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -95,6 +101,11 @@ const LinkStyled = styled(Link)`
   font-size: 18px;
   border-radius: 25px;
   text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+    padding: 0.5rem;
+  }
 `;
 
 class HomePage extends React.Component {

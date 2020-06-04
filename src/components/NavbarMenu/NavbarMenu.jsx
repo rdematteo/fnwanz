@@ -13,6 +13,11 @@ const LinkStyled = styled(Link)`
   color: white;
   padding: 0 2rem 0 0;
   font-size: 20px;
+
+  @media (max-width: 768px) {
+    padding: 0 1rem 0 0;
+    font-size: 14px;
+  }
 `;
 
 function NavbarMenu() {
