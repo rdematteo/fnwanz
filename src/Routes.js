@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import Meeting from "./components/Meeting/34thMeeting";
 import Archive from "./components/Archive/Archive";
+import PageNotFound from "./components/PageNotFound/PageNotFound";
 
 class Routes extends React.Component {
   render() {
@@ -12,6 +13,7 @@ class Routes extends React.Component {
         <Route path="/home" exact component={HomePage} />
         <Route path="/meeting" exact component={Meeting} />
         <Route path="/archive" exact component={Archive} />
+        <Route component={PageNotFound} />
       </Switch>
     );
   }

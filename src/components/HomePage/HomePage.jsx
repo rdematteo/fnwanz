@@ -19,6 +19,7 @@ const Container = styled.div`
 `;
 const LhsColumn = styled.div`
   width: 50%;
+  height: 100vh;
 
   @media (max-width: 768px) {
     width: 90%;
@@ -29,6 +30,7 @@ const RhsColumn = styled.div`
   display: flex;
   justify-content: center;
   padding: 2rem 0 0 0;
+  height: 100vh;
 
   @media (max-width: 768px) {
     width: 90%;
@@ -37,7 +39,7 @@ const RhsColumn = styled.div`
 `;
 
 const ImageStyled = styled.img`
-  height: 20%;
+  height: 80%;
 
   @media (max-width: 768px) {
     height: 400px;
@@ -110,7 +112,7 @@ const LinkStyled = styled(Link)`
 class HomePage extends React.Component {
   render() {
     return (
-      <Container>
+      <Container className="homePageContainer">
         <LhsColumn>
           <Para>{Intro}</Para>
           <AimTitleStyled>{AimTitle}</AimTitleStyled>
