@@ -4,6 +4,8 @@ import styled from "styled-components";
 
 const Title = styled.h1`
   text-align: center;
+  padding: 1rem 0;
+  margin: 0;
 
   @media (max-width: 768px) {
     font-size: 18px;
@@ -22,7 +24,7 @@ const Container = styled.div`
 const Archive = () => {
   return (
     <React.Fragment className="archives">
-      <Title>Archives</Title>
+      <Title>Archive</Title>
       <Container>
         <table class="table table-bordered">
           <thead class="thead-dark">
