@@ -1,4 +1,4 @@
 [build]
 base = "fnwanz/"
-publish = "fnwanz/build/
+publish = "fnwanz/build/"
 command = "npm run build"
