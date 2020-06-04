@@ -10,4 +10,6 @@ status = 200
 
 [[redirects]]
 from = "/*"
-to = "/"
+to = "/home"
+status = 404
+force = true
