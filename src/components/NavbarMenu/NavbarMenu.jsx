@@ -11,17 +11,17 @@ const Container = styled.div`
 `;
 const LinkStyled = styled(Link)`
   color: white;
-  padding: 0 1rem 0 0;
-  font-size: 14px;
+  padding: 0 2rem 0 0;
+  font-size: 20px;
 `;
 
 function NavbarMenu() {
   return (
     <Container>
       <Navbar bg="primary" variant="dark">
-        <LinkStyled to="/home">Home</LinkStyled>
         <Nav className="mr-auto">
-          <LinkStyled to="/meeting">Meeting</LinkStyled>
+          <LinkStyled to="/home">Home</LinkStyled>
+          <LinkStyled to="/meeting">34th Annual Meeting Details</LinkStyled>
           <LinkStyled to="/archive">Archive</LinkStyled>
         </Nav>
 
