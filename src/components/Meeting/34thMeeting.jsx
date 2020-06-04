@@ -9,6 +9,7 @@ const Container = styled.div`
 
 const Title = styled.h1`
   text-align: center;
+  padding: 2rem 0 0 0;
 
   @media (max-width: 768px) {
     font-size: 18px;
@@ -206,7 +207,7 @@ class Meeting extends React.Component {
             <strong>REGISTRATION DEADLINE:</strong> TBA
           </Para>
           <Para>
-            <strong>ABSTRACT DEADLINE:</strong> TBAß
+            <strong>ABSTRACT DEADLINE:</strong> TBA
           </Para>
         </Information>
 
