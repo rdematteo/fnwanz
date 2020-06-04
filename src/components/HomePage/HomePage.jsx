@@ -35,6 +35,8 @@ const RhsColumn = styled.div`
   @media (max-width: 768px) {
     width: 90%;
     padding: 0;
+    height: 450px;
+    align-items: center;
   }
 `;
 

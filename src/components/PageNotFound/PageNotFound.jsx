@@ -8,6 +8,11 @@ const Container = styled.div`
   flex-direction: column;
   background: #00a896;
   height: calc(100vh - 295px); // takes into account title and navbar
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+    height: 100vh;
+  }
 `;
 
 const Text = styled.h1`
