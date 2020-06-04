@@ -9,7 +9,6 @@ const Container = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   background: #074f57;
-  // height: 100vh;
 
   @media (max-width: 768px) {
     display: flex;
@@ -121,12 +120,11 @@ class HomePage extends React.Component {
             <LinkStyled to="/meeting">
               34th Annual Meeting, Newcastle
             </LinkStyled>
-            <LinkStyled to="/archives">Archives</LinkStyled>
+            <LinkStyled to="/archive">Archives</LinkStyled>
           </Links>
         </LhsColumn>
         <RhsColumn>
           <ImageStyled src={logo} alt="Logo" />
-          {/* <img src={logo} alt="Logo"/> */}
         </RhsColumn>
       </Container>
     );
