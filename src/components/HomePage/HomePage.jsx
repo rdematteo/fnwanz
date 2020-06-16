@@ -91,6 +91,7 @@ const AimStyled = styled(Para)`
 `;
 
 const Psanz = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: column;
   background: #0a87af;
@@ -98,10 +99,11 @@ const Psanz = styled.div`
   margin: 1rem 4rem;
 
   @media (max-width: 768px) {
-    flex-direction: column;
+    width: 85%;
     font-size: 12px;
     padding: 0px;
     margin: 0.5rem;
+    order: -1;
   }
 `;
 
@@ -151,7 +153,7 @@ class HomePage extends React.Component {
           <AimTitleStyled>{AimTitle}</AimTitleStyled>
           <Para>{AimText}</Para>
           <AimStyled>{Aim}</AimStyled>
-          <Psanz className="psanz">
+          {/* <Psanz className="psanz">
             <PsanzTitleStyled>PSANZ</PsanzTitleStyled>
             <PsanzPara>
               The FNWANZ is a proud subcommittee of the Perinatal Society of
@@ -164,11 +166,26 @@ class HomePage extends React.Component {
             >
               PSANZ
             </LinkStyled>
-          </Psanz>
+          </Psanz> */}
         </LhsColumn>
         <RhsColumn className="image">
           <ImageStyled src={logo} alt="Logo" />
         </RhsColumn>
+
+        <Psanz className="psanz">
+          <PsanzTitleStyled>PSANZ</PsanzTitleStyled>
+          <PsanzPara>
+            The FNWANZ is a proud subcommittee of the Perinatal Society of
+            Australia and New Zealand.
+          </PsanzPara>
+          <LinkStyled
+            href="https://www.psanz.com.au/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            PSANZ
+          </LinkStyled>
+        </Psanz>
       </Container>
     );
   }
