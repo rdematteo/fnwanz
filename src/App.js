@@ -9,9 +9,13 @@ const Content = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: #074f57;
-  color: #fff;
-  padding: 5rem 1rem;
+  // background-color: #074f57;
+  // color: #fff;
+
+  background-color: #fff;
+  color: #007bff;
+
+  padding: 3rem 1rem;
 
   @media (max-width: 768px) {
     padding: 1rem 1rem;
