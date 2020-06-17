@@ -9,12 +9,11 @@ const Content = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
-  // background-color: #074f57;
-  // color: #fff;
+  background-color: #074f57;
+  color: #fff;
 
-  background-color: #fff;
-  color: #007bff;
-
+  // background-color: #fff;
+  // color: #007bff;
   padding: 3rem 1rem;
 
   @media (max-width: 768px) {
@@ -41,7 +40,7 @@ class App extends React.Component {
           <meta property="og:image" content="./public/og-image.png" />
         </MetaTags>
         <NavbarMenu />
-        <Content>
+        <Content className="banner">
           <Heading>{Title}</Heading>
         </Content>
         <Routes />

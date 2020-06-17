@@ -1,16 +1,31 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Navbar, Nav } from "react-bootstrap";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 
 const Container = styled.div`
+  display:flex:
   padding: 0rem;
 `;
+
+const Navbar2 = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  align-items: center;
+  width: 100%;
+  height: 20%
+  background: white;
+  padding: 0.5rem;
+  border-bottom: black solid 5px;
+
+
+`;
+
 const LinkStyled = styled(Link)`
-  color: white;
+  color: black;
   padding: 0 2rem 0 0;
   font-size: 20px;
 
@@ -20,28 +35,32 @@ const LinkStyled = styled(Link)`
   }
 `;
 
+const FacebookLink = styled.div`
+  display: flex;
+  margin-left: auto;
+`;
+
 function NavbarMenu() {
   return (
     <Container>
-      <Navbar bg="primary" variant="dark">
-        <Nav className="mr-auto">
-          <LinkStyled to="/home">Home</LinkStyled>
-          <LinkStyled to="/meeting">34th Annual Meeting Details</LinkStyled>
-          <LinkStyled to="/archive">Archive</LinkStyled>
-        </Nav>
-
-        <a
-          href="https://www.facebook.com/FNWANZ/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon
-            icon={faFacebookF}
-            color="#fff"
-            size="2x"
-          ></FontAwesomeIcon>
-        </a>
-      </Navbar>
+      <Navbar2>
+        <LinkStyled to="/home">Home</LinkStyled>
+        <LinkStyled to="/meeting">34th Annual Meeting Details</LinkStyled>
+        <LinkStyled to="/archive">Archive</LinkStyled>
+        <FacebookLink>
+          <a
+            href="https://www.facebook.com/FNWANZ/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faFacebookF}
+              color="##007bff"
+              size="2x"
+            ></FontAwesomeIcon>
+          </a>
+        </FacebookLink>
+      </Navbar2>
     </Container>
   );
 }
