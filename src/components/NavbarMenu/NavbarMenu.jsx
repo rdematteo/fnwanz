@@ -19,7 +19,7 @@ const Navbar2 = styled.div`
   height: 20%
   background: white;
   padding: 0.5rem;
-  border-bottom: black solid 5px;
+  border-bottom: black solid 3px;
 
 
 `;
@@ -47,7 +47,7 @@ function NavbarMenu() {
         <LinkStyled to="/home">Home</LinkStyled>
         <LinkStyled to="/meeting">34th Annual Meeting Details</LinkStyled>
         <LinkStyled to="/archive">Archive</LinkStyled>
-        <FacebookLink>
+        <FacebookLink className="facebook-link">
           <a
             href="https://www.facebook.com/FNWANZ/"
             target="_blank"
@@ -55,7 +55,7 @@ function NavbarMenu() {
           >
             <FontAwesomeIcon
               icon={faFacebookF}
-              color="##007bff"
+              color="#007bff"
               size="2x"
             ></FontAwesomeIcon>
           </a>

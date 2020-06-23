@@ -8,22 +8,27 @@ import MetaTags from "react-meta-tags";
 const Content = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100%;
+  justify-content: space-around;
+  height: 20vh;
   background-color: #074f57;
   color: #fff;
 
-  // background-color: #fff;
-  // color: #007bff;
   padding: 3rem 1rem;
 
   @media (max-width: 768px) {
     padding: 1rem 1rem;
+    height: 10vh;
   }
 `;
 
 const Heading = styled.h1`
   text-align: center;
   font-size: 64px;
+
+  @media (max-width: 900px) {
+    font-size: 40px;
+  }
+
   @media (max-width: 768px) {
     font-size: 18px;
   }
